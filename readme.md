@@ -2,7 +2,7 @@
 
 This template helps you quickly publish a static website to Azure Web App (Static Site).
 
-![Static web](./azure.yaml)
+![Static web](./staticSite.png)
 
 ## Features
 
