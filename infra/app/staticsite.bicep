@@ -22,5 +22,4 @@ resource web 'Microsoft.Web/staticSites@2024-04-01' = {
   }
 }
 
-output name string = web.name
 output uri string = 'https://${web.properties.defaultHostname}'

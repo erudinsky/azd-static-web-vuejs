@@ -35,5 +35,3 @@ module web './app/staticsite.bicep' = {
     tags: tags
   }
 }
-
-output uri string = web.outputs.uri
