@@ -1,2 +1,5 @@
 .DS_Store
-vue-app/
+.azure
+package-lock.json
+node_modules/
+dist/
