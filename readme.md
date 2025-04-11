@@ -24,7 +24,18 @@ You will be prompted to provide:
 
 - **Environment Name**: A unique prefix for the resource group that will hold all Azure resources.
 
-### 2. Deploy to Azure
+### 2. Login to Azure
+
+The `azd auth login` command is used to authenticate your Azure Developer CLI (azd) with your Azure account. This step ensures that the CLI has the necessary permissions to manage resources in your Azure subscription.
+
+When you run this command, it will:
+
+1. Open a browser window prompting you to log in to your Azure account.
+2. Authenticate your session and link it to the Azure Developer CLI.
+
+Once authenticated, you can seamlessly deploy and manage Azure resources using `azd` commands.
+
+### 3. Deploy to Azure
 
 Use the following command to build your application, provision Azure resources, and deploy the application:
 
