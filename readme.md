@@ -56,6 +56,7 @@ Once deployment is complete, you can access your static website using the URL pr
 
 - This template uses the F1 (free) SKU for Azure App Service, which has limited CPU and RAM resources. For production use, consider upgrading to a paid SKU.
 - Refer to the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/) for details on available SKUs and their costs.
+- This template includes a sample Vue.js application located in `vue-app` directory. To use this template for your own Vue.js application, ensure that your app is located in `vue-app` or update the `project` attribute in the `azure.yaml` file accordingly.
 
 ## Resources
 
