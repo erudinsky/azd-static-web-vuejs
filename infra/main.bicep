@@ -18,7 +18,10 @@ param staticSiteName string
 param location string
 
 var abbrs = loadJsonContent('./abbreviations.json')
-var tags = { 'azd-env-name': environmentName }
+var tags = { 
+  'azd-env-name': environmentName
+  'azd-service-name': 'web' 
+}
 
 resource rg 'Microsoft.Resources/resourceGroups@2024-11-01' = {
   name: !empty(resourceGroupName) ? resourceGroupName : '${abbrs.resourcesResourceGroups}${environmentName}'

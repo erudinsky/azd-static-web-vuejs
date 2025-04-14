@@ -2,7 +2,6 @@
 name: azd-vue-static-webapp
 metadata:
   template: custom
-resourceGroup: vue-static-webapp
 location: westeurope
 services:
   web:
